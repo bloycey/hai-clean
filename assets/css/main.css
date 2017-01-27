@@ -61,8 +61,8 @@
 /*Custom*/
 
 .logo-img {
-    height: 30vmin;
-    margin-top: 0;
+    height: 16vmax;
+    margin-top: -30px;
     padding: 0;
 }
 
@@ -71,6 +71,24 @@
     height: 60vh;
     right:6%;
     bottom: 20%
+}
+
+.ph-number {
+    margin-bottom:0px;
+    padding-bottom: 0px;
+}
+
+#header .content .inner {
+    padding: 2rem 2rem !important;
+}
+
+#wrapper {
+    padding: 1rem 2rem !important;;
+   
+}
+
+#header {
+    background-image: radial-gradient(rgba(255, 255, 255, 0.25) 25%, transparent 50%) !important;
 }
 
 @media screen and (max-width: 1392px) {
